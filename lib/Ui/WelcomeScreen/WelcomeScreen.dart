@@ -57,10 +57,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) =>
-                                            JobSeekerProfileMaker(),
+                                            const JobSeekerProfileMaker(),
                                       ));
                                 },
-                                child: Text(
+                                child: const Text(
                                   "Job Seeker",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
@@ -82,14 +82,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) =>
-                                            EmployeeRegistrationForm(),
+                                            const EmployeeRegistrationForm(),
                                       ));
 
 
 
 
                                 },
-                                child: Text(
+                                child: const Text(
                                   "Employeer",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
